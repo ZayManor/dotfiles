@@ -12,7 +12,6 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'scrooloose/nerdtree'
 Plug 'tpope/vim-surround'
-Plug 'valloric/youcompleteme'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'NLKNguyen/papercolor-theme'
 Plug 'vim-airline/vim-airline'
@@ -26,5 +25,4 @@ colorscheme PaperColor
 let g:airline_theme='papercolor'
 let g:airline#extensions#tabline#enabled = 1
 
-autocmd VimEnter * NERDTree
 autocmd VimEnter * wincmd p
