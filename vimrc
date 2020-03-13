@@ -5,6 +5,7 @@ set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 set expandtab
+set backspace=indent,eol,start
 autocmd BufWritePre * %s/\s\+$//e
 
 call plug#begin('~/.vim/plugged')
